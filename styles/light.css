@@ -9,8 +9,48 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --bg-image: url(../images/cover-image-light.png);
+  --bg-color: #FFF1F7;
+  --subtitle-color: #353430;
+  --title-color: #FFC2E6;
+  --accent-color: #FF8DCB;
+  --title-shadow-color: #FF8DCB;
+  --decorated-color: #353430;
+  --section-text-color: var(--accent-color);
+  --button-color: var(--subtitle-color);
+  --text-color: #353430;
+  --main-font-family: "IBM Plex Mono", "monospace";
+  --main-font-size: 18px;
+  --main-font-size-title: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --font-size-standart: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --hover-color: rgba(50, 49, 45, 0.4);
 }
 
-.theme-light .page {
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-image: url(../images/cover-image-light.png);
+    --bg-color: #FFF1F7;
+    --subtitle-color: #353430;
+    --title-color: #FFC2E6;
+    --accent-color: #FF8DCB;
+    --title-shadow-color: #FF8DCB;
+    --decorated-color: #353430;
+    --section-text-color: var(--accent-color);
+    --button-color: var(--subtitle-color);
+    --text-color: #353430;
+    --main-font-family: "IBM Plex Mono", "monospace";
+    --main-font-size: 18px;
+    --main-font-size-title: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    --font-size-standart: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --hover-color: rgba(50, 49, 45, 0.4);
+  }
+
+  .theme-light .page .rec {
+    display: none;
+  }
+}
+
+.theme-light .page .rec {
+  display: none;
   /* Вам также нужно будет написать ряд подобных селекторов */
 }
