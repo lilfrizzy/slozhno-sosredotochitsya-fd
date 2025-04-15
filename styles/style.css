@@ -339,9 +339,6 @@ a:focus-visible {
 
   .main__section:nth-child(3) .main__section__header {
     justify-self: flex-start;
-  }
-
-  .main__section:nth-child(3) .main__section__header {
     grid-column: 2;
   }
 
