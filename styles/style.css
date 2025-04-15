@@ -149,6 +149,12 @@
 
 .main__section__subtitle {
   margin: 0;
+  color: var(--subtitle-color);
+  background-color: var(--accent-color);
+  border: none;
+  font-weight: 400;
+  font-size: var(--main-font-size);
+  line-height: 23.4px;
 }
 
 .main__section__block {
@@ -191,15 +197,6 @@ a:focus-visible {
   font-weight: 400;
 }
 
-.main__section__subtitle {
-  color: var(--subtitle-color);
-  background-color: var(--accent-color);
-  border: none;
-  font-weight: 400;
-  font-size: var(--main-font-size);
-  line-height: 23.4px;
-}
-
 .main__section:last-child {
   display: flex;
   flex-direction: column;
@@ -233,10 +230,6 @@ a:focus-visible {
   color: var(--title-color);
   text-shadow: 2px 2px 0 var(--accent-color);
   font-size: var(--main-font-size-title);
-}
-
-.header__theme-menu-button_active {
-  pointer-events: none;
 }
 
 /* Адаптивность */
