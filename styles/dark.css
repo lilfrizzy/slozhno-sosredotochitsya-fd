@@ -25,6 +25,7 @@
   --font-size-standart: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 }
 
-.theme-dark .page {
+.theme-dark .page .rec {
+  display: block;
   /* Вам также нужно будет написать ряд подобных селекторов */
 }
