@@ -221,7 +221,8 @@ a:focus-visible {
   position: relative;
   grid-template-rows: 648px;
   padding: 10px;
-  background-color: var(--bg-color)
+  background-color: var(--bg-color);
+  height: 668px;
 }
 
 .footer__text {
@@ -387,6 +388,7 @@ a:focus-visible {
   .footer {
     padding: 20px;
     grid-template-rows: 983px;
+    height: 1024px;
   }
 }
 
@@ -458,6 +460,7 @@ a:focus-visible {
   .footer {
     padding: 20px;
     grid-template-rows: 727px;
+    height: 768px;
   }
 
   .footer__title {
